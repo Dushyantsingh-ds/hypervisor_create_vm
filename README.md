@@ -86,13 +86,10 @@ Select "Create Virtual Machine"
 
 That's it! Quick Create will take care of the rest.
 
-
-![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/quickcreatesteps_inked.jpg)
-
-
 ## Windows 10 Creators Update (Windows 10 version 1703)
 
-![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/osdeploy_upd.png)
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/quickcreatesteps_inked.jpg)
 
 Open Hyper-V Manager from the start menu.
 
@@ -111,9 +108,9 @@ Congratulations, you have a new virtual machine. Now you're ready to install the
 
 Your virtual machine should look something like this:
 
-![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/enable_role_upd.png)
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/osdeploy_upd.png)
 
-
+----------------------
 
 
 
