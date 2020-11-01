@@ -133,13 +133,13 @@ Get-VMSwitch  * | Format-Table Name
 Use the New-VM cmdlet to create the virtual machine. See the following examples.
 Existing virtual hard disk - To create a virtual machine with an existing virtual hard disk, you can use the following command where,
 
--Name is the name that you provide for the virtual machine that you're creating.
--MemoryStartupBytes is the amount of memory that is available to the virtual machine at start up.
--BootDevice is the device that the virtual machine boots to when it starts like the network adapter (NetworkAdapter) or virtual hard disk (VHD).
--VHDPath is the path to the virtual machine disk that you want to use.
--Path is the path to store the virtual machine configuration files.
--Generation is the virtual machine generation. Use generation 1 for VHD and generation 2 for VHDX. See Should I create a generation 1 or 2 virtual machine in Hyper-V?.
--Switch is the name of the virtual switch that you want the virtual machine to use to connect to other virtual machines or the network. See Create a virtual switch for Hyper-V virtual machines.
+- Name is the name that you provide for the virtual machine that you're creating.
+- MemoryStartupBytes is the amount of memory that is available to the virtual machine at start up.
+- BootDevice is the device that the virtual machine boots to when it starts like the network adapter (NetworkAdapter) or virtual hard disk (VHD).
+- VHDPath is the path to the virtual machine disk that you want to use.
+- Path is the path to store the virtual machine configuration files.
+- Generation is the virtual machine generation. Use generation 1 for VHD and generation 2 for VHDX. See Should I create a generation 1 or 2 virtual machine in Hyper-V?.
+- Switch is the name of the virtual switch that you want the virtual machine to use to connect to other virtual machines or the network. See Create a virtual switch for Hyper-V virtual machines.
 ```
 New-VM -Name <Name> -MemoryStartupBytes <Memory> -BootDevice <BootDevice> -VHDPath <VHDPath> -Path <Path> -Generation <Generation> -Switch <SwitchName>
 ```
