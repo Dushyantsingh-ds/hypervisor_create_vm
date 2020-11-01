@@ -51,3 +51,75 @@ DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 Restart-Computer
 ```
 
+------------------------------
+# Create your first virtual machine
+
+Create a virtual machine and install its operating system.
+
+We've been building new tools for creating virtual machines so the instructions have changed significantly over the past three releases.
+
+## Windows 10 Fall Creators Update (Windows 10 version 1709)
+In Fall Creators Update, Quick Create expanded to include a virtual machine gallery that can be launched independently from Hyper-V Manager.
+
+To create a new virtual machine in Fall Creators Update:
+
+Open Hyper-V Quick Create from the start menu.
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/quick-create-start-menu.png)
+
+Select an operating system or choose your own by using a local installation source.
+
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/vmgallery.png)
+
+If you want to use your own image to create the virtual machine, select Local Installation Source.
+Select Change Installation Source.
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/change-source.png)
+
+Pick the .iso or .vhdx that you want to turn into a new virtual machine.
+If the image is a Linux image, deselect the Secure Boot option.
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/quickcreatesteps_inked.jpg)
+
+Select "Create Virtual Machine"
+
+That's it! Quick Create will take care of the rest.
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/osdeploy_upd.png)
+
+## Windows 10 Creators Update (Windows 10 version 1703)
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/enable_role_upd.png)
+
+Open Hyper-V Manager from the start menu.
+
+In Hyper-V Manager, Find Quick Create in the right hand Actions menu.
+
+Customize your virtual machine.
+
+- (optional) Give the virtual machine a name.
+- Select the installation media for the virtual machine. You can install from a .iso or .vhdx file. If you are installing Windows in the virtual machine, you can enable Windows Secure Boot. Otherwise leave it unselected.
+- Set up network. If you have an existing virtual switch, you can select in the network dropdown. If you have no existing switch, you will see a button to set up an automatic network, which will automatically configure a virtual network.
+Click Connect to start your virtual machine. Don't worry about editing the settings, you can go back and change them any time.
+
+You may be prompted to ‘Press any key to boot from CD or DVD’. Go ahead and do so. As far as it knows, you're installing from a CD.
+
+Congratulations, you have a new virtual machine. Now you're ready to install the operating system.
+
+Your virtual machine should look something like this:
+
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/enable_role_upd.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
