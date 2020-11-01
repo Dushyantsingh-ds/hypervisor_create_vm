@@ -80,14 +80,15 @@ Select Change Installation Source.
 Pick the .iso or .vhdx that you want to turn into a new virtual machine.
 If the image is a Linux image, deselect the Secure Boot option.
 
-![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/quickcreatesteps_inked.jpg)
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/toggle-secure-boot.png)
 
 Select "Create Virtual Machine"
 
 That's it! Quick Create will take care of the rest.
 
 
-![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/toggle-secure-boot.png)
+![alt text](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/media/quickcreatesteps_inked.jpg)
+
 
 ## Windows 10 Creators Update (Windows 10 version 1703)
 
