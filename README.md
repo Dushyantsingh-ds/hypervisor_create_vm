@@ -51,8 +51,3 @@ DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 Restart-Computer
 ```
 
----------------------------------------
-
-# Create a VM on Hypervisor
-
-
